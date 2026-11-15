@@ -265,7 +265,7 @@ $("#vid").innerHTML = FINALE.video
   ? `<video src="${FINALE.video}" ${FINALE.poster ? `poster="${FINALE.poster}"` : ""} controls playsinline preload="metadata"></video>`
   : `<div class="empty">seu vídeo vai aqui<br>(FINALE.video)</div>`;
 const days = Math.max(0, Math.floor((Date.now() - new Date(START_DATE + "T00:00:00")) / 864e5));
-$("#count").textContent = `${days.toLocaleString("pt-BR")} dias juntos, e contando`;
+$("#count").textContent = `você me apetece muitooo`;
 const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add("in")), {threshold:.35});
 document.querySelectorAll(".rv").forEach(e => io.observe(e));
 
